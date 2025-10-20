@@ -127,8 +127,8 @@ export default function Home() {
             <ServiceCard
               icon={SiWhatsapp}
               label="Chat"
-              iconBgColor="bg-rose-100 dark:bg-rose-900/30"
-              iconColor="text-rose-600 dark:text-rose-400"
+              iconBgColor="bg-green-100 dark:bg-green-900/30"
+              iconColor="text-green-600 dark:text-green-400"
             />
           </div>
         </div>
