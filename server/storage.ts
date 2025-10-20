@@ -63,7 +63,7 @@ export class MemStorage implements IStorage {
       id: "tenant-1",
       name: "John Smith",
       unitNumber: "Amor.05.07",
-      buildingName: "Pakuwon Residence",
+      buildingName: "Pakuwon Residence Bekasi",
       phone: "+62 812-3456-7890" as string | null,
       email: "john.smith@example.com" as string | null,
     };
