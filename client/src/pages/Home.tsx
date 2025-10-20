@@ -97,8 +97,8 @@ export default function Home() {
             <ServiceCard
               icon={Headphones}
               label="Call TRO"
-              iconBgColor="bg-green-100 dark:bg-green-900/30"
-              iconColor="text-green-600 dark:text-green-400"
+              iconBgColor="bg-yellow-100 dark:bg-yellow-900/30"
+              iconColor="text-yellow-600 dark:text-yellow-400"
             />
             <ServiceCard
               icon={Grid3x3}
