@@ -9,7 +9,7 @@ export default function Header({ tenantName, unitInfo }: HeaderProps) {
   return (
     <div className="relative bg-gradient-to-b from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))] text-white px-4 pt-6 pb-24 rounded-b-3xl">
       <div className="flex items-start justify-between mb-6">
-        <div className="text-2xl font-semibold font-heading">Pakuwon Residence Bekasi</div>
+        <div className="text-2xl font-semibold font-heading">Pakuwon Residence</div>
         <button 
           data-testid="button-notifications"
           className="p-2 hover-elevate active-elevate-2 rounded-lg"
