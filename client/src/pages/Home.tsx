@@ -130,6 +130,7 @@ export default function Home() {
               label="Chat"
               iconBgColor="bg-green-100 dark:bg-green-900/30"
               iconColor="text-green-600 dark:text-green-400"
+              onClick={() => window.open("https://wa.me/6282111659120", "_blank")}
             />
           </div>
         </div>
