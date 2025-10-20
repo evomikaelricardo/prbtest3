@@ -20,12 +20,12 @@ import {
   Sparkles,
   Calendar,
   CreditCard as CardIcon,
-  TruckIcon,
   Home as HomeIcon,
   BookOpen,
   AlertTriangle,
   Building
 } from "lucide-react";
+import { SiWhatsapp } from "react-icons/si";
 import type { Tenant, Announcement } from "@shared/schema";
 
 // Import generated promo images
@@ -125,8 +125,8 @@ export default function Home() {
               iconColor="text-teal-600 dark:text-teal-400"
             />
             <ServiceCard
-              icon={TruckIcon}
-              label="Loading Unloading"
+              icon={SiWhatsapp}
+              label="Chat"
               iconBgColor="bg-rose-100 dark:bg-rose-900/30"
               iconColor="text-rose-600 dark:text-rose-400"
             />

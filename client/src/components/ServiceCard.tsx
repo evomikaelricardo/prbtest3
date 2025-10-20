@@ -1,7 +1,8 @@
 import { LucideIcon } from "lucide-react";
+import { IconType } from "react-icons";
 
 interface ServiceCardProps {
-  icon: LucideIcon;
+  icon: LucideIcon | IconType;
   label: string;
   iconBgColor: string;
   iconColor: string;
