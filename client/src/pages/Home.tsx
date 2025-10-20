@@ -96,7 +96,7 @@ export default function Home() {
             </ParcelDialog>
             <ServiceCard
               icon={Headphones}
-              label="Report to Helpdesk"
+              label="Call TRO"
               iconBgColor="bg-green-100 dark:bg-green-900/30"
               iconColor="text-green-600 dark:text-green-400"
             />
