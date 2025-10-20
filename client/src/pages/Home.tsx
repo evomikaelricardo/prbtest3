@@ -84,16 +84,13 @@ export default function Home() {
                 />
               </div>
             </VisitorDialog>
-            <ParcelDialog tenantId={tenantId}>
-              <div className="w-full">
-                <ServiceCard
-                  icon={Package}
-                  label="Manage Parcel"
-                  iconBgColor="bg-orange-100 dark:bg-orange-900/30"
-                  iconColor="text-orange-600 dark:text-orange-400"
-                />
-              </div>
-            </ParcelDialog>
+            <ServiceCard
+              icon={SiWhatsapp}
+              label="Whatsapp"
+              iconBgColor="bg-green-100 dark:bg-green-900/30"
+              iconColor="text-green-600 dark:text-green-400"
+              onClick={() => window.open("https://wa.me/6282111659120", "_blank")}
+            />
             <ServiceCard
               icon={Headphones}
               label="Call"
@@ -125,13 +122,16 @@ export default function Home() {
               iconBgColor="bg-teal-100 dark:bg-teal-900/30"
               iconColor="text-teal-600 dark:text-teal-400"
             />
-            <ServiceCard
-              icon={SiWhatsapp}
-              label="Whatsapp"
-              iconBgColor="bg-green-100 dark:bg-green-900/30"
-              iconColor="text-green-600 dark:text-green-400"
-              onClick={() => window.open("https://wa.me/6282111659120", "_blank")}
-            />
+            <ParcelDialog tenantId={tenantId}>
+              <div className="w-full">
+                <ServiceCard
+                  icon={Package}
+                  label="Manage Parcel"
+                  iconBgColor="bg-orange-100 dark:bg-orange-900/30"
+                  iconColor="text-orange-600 dark:text-orange-400"
+                />
+              </div>
+            </ParcelDialog>
           </div>
         </div>
 
