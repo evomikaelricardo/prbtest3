@@ -96,7 +96,7 @@ export default function Home() {
             </ParcelDialog>
             <ServiceCard
               icon={Headphones}
-              label="Call TRO"
+              label="Call"
               iconBgColor="bg-yellow-100 dark:bg-yellow-900/30"
               iconColor="text-yellow-600 dark:text-yellow-400"
               onClick={() => window.location.href = "tel:+6282111659120"}
